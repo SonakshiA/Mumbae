@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mumbae">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".PoliceDepartment"
+            android:exported="false" />
+        <activity
+            android:name=".FireDepartment"
+            android:exported="false" />
+        <activity
+            android:name=".AmbulanceService"
+            android:exported="false" />
+        <activity
+            android:name=".OxygenCentreContact"
+            android:exported="false" />
+        <activity
+            android:name=".WomenHelpline"
+            android:exported="false" />
+        <activity
+            android:name=".BloodBankContact"
+            android:exported="false" />
+        <activity
+            android:name=".Dessert"
+            android:exported="false" />
+        <activity
+            android:name=".JapaneseFood"
+            android:exported="false" />
+        <activity
+            android:name=".ChineseFood"
+            android:exported="false" />
+        <activity
+            android:name=".ItalianFood"
+            android:exported="false" />
+        <activity
+            android:name=".ParsiFood"
+            android:exported="false" />
+        <activity
+            android:name=".SouthIndianFood"
+            android:exported="false" />
+        <activity
+            android:name=".NorthIndianFood"
+            android:exported="false" />
+        <activity
+            android:name=".MaharashtrianFood"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

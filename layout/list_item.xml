@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="@dimen/list_item_height">
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height" />
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_toRightOf="@id/item_image"
+        android:orientation="vertical">
+
+        <TextView
+            android:id = "@+id/textview_1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="16dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            tools:text="The Taj Hotel" />
+
+        <TextView
+            android:id = "@+id/textview_2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="16dp"
+            android:textSize="16sp"
+            android:gravity="top"
+            tools:text = "Greater Mumbai"/>
+
+    </LinearLayout>
+</RelativeLayout>
